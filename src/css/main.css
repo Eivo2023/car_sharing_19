@@ -177,6 +177,12 @@ html, body {
 
 .box {}
 
+.box.box--dark {
+    background-color: rgba(40, 39, 44, 1);
+    padding-top: 4.125rem;
+    padding-bottom: 6.25rem;
+}
+
 .section {
     margin-bottom: 6.25rem;
 }
@@ -190,6 +196,25 @@ html, body {
     position: relative;
     margin-bottom: 2.5625rem;
 
+}
+
+.section .section__hdl.section__hdl--secondary {
+    color: var(--secondary-color);
+    margin-bottom: 4.6875rem;
+}
+
+.section .section__col.section__col--secondary {
+    align-items: center;
+}
+
+.section .section__col.section__col--secondary h3 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.section .section__col.section__col--secondary p {
+    text-align: center;
+    color: var(--secondary-color);
 }
 
 .section .section__hdl:before, .section .section__hdl:after {
@@ -231,6 +256,8 @@ html, body {
     flex-direction: column;
     align-items: flex-start;
 }
+
+
 
 .section .section__img {
     width: 100%;
